@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RCM Jardinagem | Paisagismo em Geral</title>
+
+  <meta name="description" content="RCM Jardinagem - Paisagismo em geral, fornecimento de grama esmeralda e São Carlos Plus, árvores, palmeiras, insumos e manutenção completa. Mais de 25 anos de experiência.">
+
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav-container">
+      <div class="logo-area">
+        <img src="img/logo-rcm.png" alt="Logo RCM Jardinagem" class="logo-img">
+        <div class="logo-text">
+          <span class="logo-title">RCM Jardinagem</span>
+          <span class="logo-subtitle">Paisagismo & Manutenção</span>
+        </div>
+      </div>
+
+      <nav class="nav" id="nav">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="hero-tag">+25 anos de experiência em jardinagem</p>
+          <h1>Seu jardim, <span>no melhor padrão</span> de paisagismo.</h1>
+          <p class="hero-description">
+            Somos a <strong>RCM Jardinagem</strong>, especialistas em paisagismo, fornecimento de gramas,
+            árvores, palmeiras e insumos para deixar sua área verde perfeita, bonita e bem cuidada o ano todo.
+          </p>
+          <div class="hero-actions">
+            <!-- Troque pelo WhatsApp real -->
+            <a href="https://wa.me/5500000000000" target="_blank" class="btn btn-primary">
+              Falar pelo WhatsApp
+            </a>
+            <a href="#galeria" class="btn btn-outline">
+              Ver trabalhos realizados
+            </a>
+          </div>
+          <div class="hero-highlight">
+            <span>• Paisagismo residencial e comercial</span>
+            <span>• Grama esmeralda & São Carlos Plus</span>
+            <span>• Manutenções e assessoria completa</span>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="hero-card-inner">
+            <h2>RCM Jardinagem</h2>
+            <p>
+              Projetos personalizados, execução rápida e acabamento de alto padrão em jardins, áreas de piscina,
+              condomínios e chácaras.
+            </p>
+            <ul>
+              <li>Paisagismo em geral</li>
+              <li>Insumos e material orgânico</li>
+              <li>Árvores e palmeiras formadas</li>
+              <li>Grama esmeralda e São Carlos Plus</li>
+            </ul>
+            <span class="hero-selo">Qualidade e confiança há mais de 25 anos</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre">
+      <div class="container section-grid">
+        <div class="section-text reveal">
+          <h2>Sobre a RCM Jardinagem</h2>
+          <p>
+            Há mais de <strong>25 anos</strong> no mercado, a <strong>RCM Jardinagem</strong> atua com foco em
+            paisagismo de qualidade, unindo técnica, bom gosto e os melhores insumos para transformar espaços
+            externos em ambientes agradáveis e valorizados.
+          </p>
+          <p>
+            Atendemos residências, condomínios, chácaras, empresas e áreas de lazer, sempre com equipe
+            especializada e acompanhamento próximo em todas as etapas do serviço.
+          </p>
+          <div class="sobre-points">
+            <div>
+              <h3>Experiência</h3>
+              <p>Equipe com ampla experiência em projetos e execução de jardins de diferentes portes.</p>
+            </div>
+            <div>
+              <h3>Cuidado nos detalhes</h3>
+              <p>Desde o preparo do solo até o acabamento final, tudo é feito com atenção total.</p>
+            </div>
+            <div>
+              <h3>Atendimento completo</h3>
+              <p>Do fornecimento de gramas e mudas até a manutenção e assessoria contínua.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-side-box reveal">
+          <h3>O que oferecemos</h3>
+          <ul class="check-list">
+            <li>Paisagismo em geral</li>
+            <li>Fornecimento de grama esmeralda</li>
+            <li>Grama São Carlos Plus</li>
+            <li>Material orgânico para plantio</li>
+            <li>Árvores e palmeiras formadas</li>
+            <li>Assessoria técnica e manutenções</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section section-alt" id="servicos">
+      <div class="container">
+        <header class="section-header">
+          <h2>Serviços de Jardinagem & Paisagismo</h2>
+          <p>
+            Soluções completas para deixar seu jardim sempre bonito, saudável e valorizado.
+          </p>
+        </header>
+
+        <div class="cards-grid">
+          <article class="card reveal">
+            <h3>Paisagismo em geral</h3>
+            <p>
+              Criação e execução de projetos paisagísticos para áreas internas e externas, com
+              escolha adequada de espécies, cores e volumetria.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Fornecimento de gramas</h3>
+            <p>
+              <strong>Grama esmeralda</strong> e <strong>grama São Carlos Plus</strong> com
+              instalação completa, nivelamento e acabamento impecável.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Árvores & palmeiras formadas</h3>
+            <p>
+              Fornecimento e plantio de árvores e palmeiras já formadas, dando impacto visual
+              imediato ao seu projeto.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Insumos & material orgânico</h3>
+            <p>
+              Terra adubada, materiais orgânicos e insumos ideais para plantio saudável e duradouro.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Assessoria & manutenção</h3>
+            <p>
+              Visitas periódicas, podas, adubações e correções para manter o jardim sempre bonito,
+              limpo e bem cuidado.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Projetos especiais</h3>
+            <p>
+              Jardins para áreas de piscina, fachadas modernas, corredores verdes e ambientes
+              personalizados conforme sua necessidade.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <header class="section-header">
+          <h2>Trabalhos realizados</h2>
+          <p>Veja alguns serviços executados pela RCM Jardinagem.</p>
+        </header>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal">
+            <img src="img/galeria-1.jpg" alt="Jardim com palmeira e paisagismo ao redor de piscina">
+            <figcaption>Área de piscina com paisagismo completo.</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="img/galeria-2.jpg" alt="Jardim lateral com grama e plantas ornamentais">
+            <figcaption>Jardim lateral com grama e plantas ornamentais.</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="img/galeria-3.jpg" alt="Palmeiras e jardim em área externa residencial">
+            <figcaption>Palmeiras e jardim em residência de alto padrão.</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="img/galeria-4.jpg" alt="Entrada de casa com palmeira e topiarias alinhadas">
+            <figcaption>Entrada de casa com acabamento paisagístico.</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="img/galeria-5.jpg" alt="Corredor com piso vazado e grama">
+            <figcaption>Corredor com piso vazado e grama integrada.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section section-alt" id="contato">
+      <div class="container section-grid contato-grid">
+        <div class="section-text reveal">
+          <h2>Entre em contato</h2>
+          <p>
+            Quer um orçamento ou tem um projeto de paisagismo em mente?
+            Fale com a RCM Jardinagem e receba uma orientação especializada.
+          </p>
+
+          <ul class="contact-list">
+            <!-- Substitua pelas informações reais do cliente -->
+            <li><strong>Telefone / WhatsApp:</strong> (00) 00000-0000</li>
+            <li><strong>E-mail:</strong> contato@rcmjardinagem.com.br</li>
+            <li><strong>Atendimento:</strong> Residências, condomínios, chácaras e empresas.</li>
+          </ul>
+
+          <a href="https://wa.me/5500000000000" target="_blank" class="btn btn-primary">
+            Chamar no WhatsApp
+          </a>
+        </div>
+
+        <div class="contato-box reveal">
+          <h3>Peça seu orçamento</h3>
+          <form class="contato-form">
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+              <label for="telefone">Telefone / WhatsApp</label>
+              <input type="tel" id="telefone" placeholder="(00) 00000-0000">
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" rows="4" placeholder="Fale um pouco sobre o que você precisa"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" disabled>
+              Enviar (protótipo)
+            </button>
+            <p class="form-note">
+              *Formulário ilustrativo. No site final você pode integrar com e-mail, WhatsApp ou back-end.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>© <span id="anoAtual"></span> RCM Jardinagem. Todos os direitos reservados.</p>
+      <p>Desenvolvido por HL Solutions 360.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
