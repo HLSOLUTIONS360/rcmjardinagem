@@ -647,4 +647,15 @@ textarea:focus {
   .section {
     padding: 3rem 0;
   }
+} 
+
+.footer-social a {
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.footer-social a:hover {
+  text-decoration: underline;
+  
 }
